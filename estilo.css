@@ -25,12 +25,10 @@
 
   .card {
     display: flex;
-    text-align: center;
-    justify-content: space-around;
+    align-items: center;
     background-color: #222;
     color:white;
     border: 5px bold white;
-    flex-flow: row;
   }
   /************FOTEER**********/
   footer {
@@ -46,10 +44,5 @@
   @media (max-width:768px) and (min-width: 200px) {
     footer {
       width: 100%;
-    }
-
-    .card {
-      display: flex;
-      flex-grow: 1;
     }
   }
