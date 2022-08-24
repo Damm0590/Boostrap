@@ -6,8 +6,8 @@
 
   body {
     margin: 15px 5px 15px 5px;
-    background-color: #222;
-    height: 100vh;
+    background-color: black;
+    height: 100%;
   }
 
   /**********CONTACTO*********/
@@ -31,7 +31,7 @@
   .card {
     display: flex;
     text-align: center;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #222;
     color:white;
     border: 5px bold white;
@@ -80,7 +80,7 @@
       #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,
       #bc1888 100%);
     -webkit-background-clip: text;
-     -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
     border-bottom: 4px solid #dc2743;
   }
   ul li:nth-child(2) a::before {
@@ -95,4 +95,17 @@
   }
   ul li:hover a::before {
     height: 100%;
+  }
+
+  /*MEDIA QUERY*/
+
+  @media (max-width:768px) and (min-width: 200px) {
+    footer {
+      width: 100%;
+    }
+
+    .card {
+      display: flex;
+      flex-grow: 1;
+    }
   }
