@@ -39,6 +39,10 @@
     background: #000;
   }
 
+  ul {
+    display: inline;
+  }
+
   /*MEDIA QUERY*/
 
   @media (max-width:768px) and (min-width: 200px) {
