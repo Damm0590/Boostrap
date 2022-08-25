@@ -39,10 +39,19 @@
     background: #000;
   }
 
-  ul {
-    display: inline;
+  .navbar {
+    color: #6610f2;  
   }
 
+  .banner {
+    width: 100%;
+    height: auto;
+  }
+
+  .card-img-top {
+    width: 50%;
+    height: auto;
+  }
   /*MEDIA QUERY*/
 
   @media (max-width:768px) and (min-width: 200px) {
