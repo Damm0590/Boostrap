@@ -38,7 +38,7 @@
     height: 100%;
     background: #000;
   }
-
+  
   .navbar {
     color: #6610f2;  
   }
@@ -46,6 +46,7 @@
   .banner {
     width: 100%;
     height: auto;
+    margin: 5px;
   }
 
   .card-img-top {
